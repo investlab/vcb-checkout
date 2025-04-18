@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="67" height="50" viewBox="0 0 67 50">
+  <defs>
+    <filter id="Layer_7" x="0" y="0" width="67" height="50" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.141"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="icons" transform="translate(-650 -2368)">
+    <g transform="matrix(1, 0, 0, 1, 650, 2368)" filter="url(#Layer_7)">
+      <image id="Layer_7-2" data-name="Layer 7" width="49" height="32" transform="translate(9 7)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADEAAAAgCAYAAAC7FpAiAAAAAXNSR0IArs4c6QAABIVJREFUWAnVWE1sG0UYfbO7No1jO/+kdRok1EOhENpDxR0VqRKIHItU0YgbF049coYDtx7aAzcQoIJUCRARXFqJHjjzJyRaVFFUkkLUgO0GO/Z6Z3nPazvrv20urdgvmvjzzOzMe9/fzNo0m010ZImfb7C9xib9/yobBPYR23ts0mE6JI5S/5TtuDpTIj8Q56tsN0TiAJUv2V5kS5tcJeBXROIwlTtpQx/Du+zBeAVGVawvbWpY8Iy/kQ3DtAHfw2sMsp5T+WLWVL9ibxq9ESIsvjTrwVY80/wtvSSI3wPcECabWhLC7+xFV3o1esIahK0Ue8IakjAWzmSKSRjr2cLL5XDieZJIY51lEHkLZS/MrdTTCD+WwXWWWD/tye0wJx6F6CBl4/Hak/Y1wUZf1e8M2NJybJ9XiUQSJr5pb/dhJUzcrAPOVmGCKoHtEnABoVNkiWdB0XDA6ri9DVMuUw+AqSmE09PAAV6wW6qcyZJIQu8agSySIA4tmM1kxsyQ5QM4O9/A+edDmPr3rOgNAifIwgsI5l5HWCvBWf8czgfvw9y8yXHud/Ag7JkzCNbWgMO8ZPv+mPWjbl3Fn6X6U3yWPPBvrY4/Nu+i4ffe/OJTenom42H5UAmTuYleX09hBXf+/hju1rvsYvkwXbLULT3y2BOwXx+D884nQI5Wd93oURG5fx/hqVNoXbgALCwkhdbKQCBGa4hEg16o7dbRbPpo0hLjWr2+yzlNhnss3tvLuDCNX+BuXyR4btMjoEHlAEn7m3Dm14FphlWXgIaVHwwnc/063EuXAN2OEmTkqKUlivk8lkuHCL7Vl4+Da2VcD8UCY3wwLwjEKfOFURZvB/7gk/wuYsfZnqoBPzL2O45oz9R6uRxDbR32/HneVplDg3t0lhxJQmOe5+LxuTkGAf8SDhKHHrCcMERCizRvcWOGhomj00BMOIwnaXmmSx+J7pQGc+j2beDEiSjpu/2xz7EkBErrK0yGIiW2wFgCmqPb8WCUxZ7tqX6ClRRmWa6TYMmRJATcZx5s/rXFxPYTcchjS4uLyAxWKOGaeA6ofRt5Y9wqPk11g2V1lLOU4MyN8MiRqGr1WPcrY0lUd3ZQqVb3VWKLk3nMzc70hxRvxnZqFU7lM4bV7/SIKlPcLQQo637Hvl9ZAVnl+kTnBY0ZnDsXeUKExsjAk9EshVI+P8mWp0dUYuOb968kT2jusDBP3Hm0Ft+C++fbMP4dgtbBpbUIkDdnmztJHk/Dnb8M3N3cW0IEZmZgV1dhRSIhlPTQyHOiPcDNjMNb4oMWoLU0Z+w8eWCXpbZ8mSX3FgH5PK1zrDwnEcyu0coFmGvX4Fy5ArOx0QYc6sQ+fRr27NmIWIIXOGFFJI5R+Tma/ZD+i4hOJL/C2N5h6VtkDjAIAiUOvdPJJ7O11b5mhKVSBERXjgcYkROfeYQ/njGM2qVW4aR8YMjERSWwe6gpnJKtH39yWfa5x3Y13vtwdFpdOcFwGiKgDWVx3ZHU9k9AuO+JhI7UN9n0A22aRHiFe1fh1AW+RCWVP+3/B3rgubPY3zaNAAAAAElFTkSuQmCC"/>
+    </g>
+  </g>
+</svg>

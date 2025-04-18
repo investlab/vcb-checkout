@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65" height="65" viewBox="0 0 65 65">
+  <defs>
+    <filter id="Layer_6" x="0" y="0" width="65" height="65" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.141"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="icons" transform="translate(-652 -2450)">
+    <g transform="matrix(1, 0, 0, 1, 652, 2450)" filter="url(#Layer_6)">
+      <image id="Layer_6-2" data-name="Layer 6" width="47" height="47" transform="translate(9 7)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAAvCAYAAABzJ5OsAAAAAXNSR0IArs4c6QAAA5ZJREFUaAXtWU1oE0EUntndblohlSrFVKPiyYI99KKoF4vgxYMKigfrQYWiHpQKPfagogfxIoLiQdRzRfQieFMUaRH/Dq2CeFBbBalNLTRNSbu7fs9200kys5tNdtMGMvCxM++9+d63k7fD7oSzkFs2m20AZQJImaaZDpk+j07LG1U4gPAjoBgFfgApjPsXb6ZC5ginQ2Ar8BBwJPgIW2eE6cunhrCjwLhEtHgjc/BfBKikQmu8XCYIobq+AxwMwDGM2JN4Ft4GmKMMLavmIbwbjCNAkXCe/c60vwOMZ97LknbAOIT5V4GYLCCILdDKI+EGkN8GDsiS8NlhZoyeZsyZ+++2WnuZ3XJMFko2uvlT+BXeqAL87CWvPISfABkllAqnRNrUk5zwhfEjuqjaNjgGwXsdaFQFedl9xYM4CTwFyX1gtRcZ0wvcWrNnOJyUvw+gHWmnX3ChXykeZBzowYRPwP7CibKx1XKcObH2BZfewqzWC7IwmW0rjK+R7wawShYgs0lrHgSbEHwX2Ceb5Gfj8+PM0dcwxnW/UJn/K4z0LLySOUVbnniIpvEZ4BoQFwOr3HeQ7ybQj5uYVuXOiYfwLQi6B3SpgpfB/g056Vd4LsvNx8bGtHg8ftYwDCrQkutNRhaRzbFteyCdTl9OJBKTYg4Svx2GsvdakSzi/lAymdwl5qDdZiWutqjR7be5Hfeq3CrdgJV8NSBuAqCnm6MVaXUccpXWIp7/zlMFdpxeQHyVfeE5ocCJufTaG+Z8vG+oW02XTV28+oeN1lNf+WjXV81eX3n12kTrqa98tOurZq+vvHptovXQi1lVmzPcSUcKe4CiD1wr9aCdmfRBt9isyTbEH3KHwtVC/1nVxSPpFeCcICTX1f/QeVZe24HR4zzL0mD3ctS872HOkj7Pnrkc4j0VBXHWtPjq17zOwsqph0VU8q+dbTfmSw72DrRqumxyX9yTU1M9+IA+r2lak3vD+Pi2cOCTccd+V41zk2ua6cbJ5seaLm3UG17iILPi1iWWTTeSdVgW7f/lNZtOGnzmO6yso3ipoJouG3HlpXcXtlH/bTIjsy4wLbcmfnFnNlfCToxzA2eVxHRrZnraRM1/CMwacEJjZnyzlv1ZTs2vF1PxjOPQytO/EofpZIwQdbNDrvncjhO18LD56YG1wyb15it6E/YOV3ttKptBQHiJVkeH4Zkx9zZZvHltJVwx63PKnB/58g9hdX4vcrKj8QAAAABJRU5ErkJggg=="/>
+    </g>
+  </g>
+</svg>

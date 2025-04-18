@@ -1,0 +1,16 @@
+@media (max-width: 676px) {
+    .text-rules {
+        display: block;
+    }
+}
+
+@media (max-width: 414px) {
+    .head-logo a {
+        width: 100px;
+        height: 64px;
+    }
+
+    .box-collapse .card .card-header button {
+        padding-left: 100px !important;
+    }
+}

@@ -1,0 +1,8 @@
+<?php
+
+namespace common\payment_methods\cyber_source_vcb_3ds2;
+
+class PaymentMethodTokenizationCyberSourceVcb3Ds2MastercardTokenizationForm extends PaymentMethodCreditCardCyberSourceVcb3ds2
+{
+
+}

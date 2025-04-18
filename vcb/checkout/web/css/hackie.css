@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+.container { width:960px\9}
+.col-span-8 {float:left\9;width: 66.6667%\9}
+.col-span-4 {float:right\9;width: 33.3333%\9}
+.col-sm-4,.col-sm-6 { float:left\9}
+.col-sm-4 {width: 33.3333%\9}
+.col-sm-6 {width: 50%\9}
+.pdr5 {padding-right:5px\9}
+.pdl5 {padding-left:5px\9}
+.col-sm-offset-4 {margin-left: 33.3333%\9}
+.form-horizontal .control-label {padding-top: 5px\9;text-align: right\9}
+
+i.Cardless {background:url(../bank/ie/ATM.png) no-repeat\9}
+i.NAB {background:url(../bank/ie/NAB.png) no-repeat\9}
+i.KLB {background:url(../bank/ie/KIENLONGBANK.png) no-repeat\9}
+i.JCB {background:url(../bank/ie/JCB.png) no-repeat\9}
+i.SEA {background:url(../bank/ie/SEB.png) no-repeat\9}
+i.PVCB {background:url(../bank/ie/PVCOMBANK.jpg) no-repeat\9}
+i.ABB {background:url(../bank/ie/ABB.png) no-repeat\9}
+i.HOMECREDIT {background:url(../bank/ie/HOMECREDIT.png) no-repeat\9}
+i.SGB {background:url(../bank/ie/SGB.png) no-repeat\9}
+i.AGB {background:url(../bank/ie/AGB.png) no-repeat\9}
+i.GPB {background:url(../bank/ie/GPB.png) no-repeat\9}
+i.PGB {background:url(../bank/ie/PGB.png) no-repeat\9}
+i.VPB {background:url(../bank/ie/VPB.png) no-repeat\9}
+i.VIETQR {background:url(../bank/ie/VIETQR.png) no-repeat\9}
+i.VAB {background:url(../bank/ie/VAB.png) no-repeat\9}
+i.NVB {background:url(../bank/ie/NVB.png) no-repeat\9}
+i.MSB {background:url(../bank/ie/MSB.png) no-repeat\9}
+i.HDB {background:url(../bank/ie/HDB.png) no-repeat\9}
+i.ACB {background:url(../bank/ie/ACB.png) no-repeat\9}
+i.EXB {background:url(../bank/ie/EXB.png) no-repeat\9}
+i.ICB {background:url(../bank/ie/ICB.png) no-repeat\9}
+i.VIB {background:url(../bank/ie/VIB.png) no-repeat\9}
+i.MB,i.MBB {background:url(../bank/ie/MB.png) no-repeat\9}
+i.TCB {background:url(../bank/ie/TCB.png) no-repeat\9}
+i.DAB {background:url(../bank/ie/DAB.png) no-repeat\9}
+i.GAB{background:url(../bank/ie/GAB.png) no-repeat\9}
+i.TPB {background:url(../bank/ie/TPB.png) no-repeat\9}
+i.PDB {background:url(../bank/ie/PDB.png) no-repeat\9}
+i.BAB {background:url(../bank/ie/BAB.png) no-repeat\9}
+i.SHB {background:url(../bank/ie/SHB.png) no-repeat\9}
+i.BIDV {background:url(../bank/ie/BIDV.png) no-repeat\9}
+i.MASTER {background:url(../bank/ie/MASTE.png) no-repeat\9}
+i.VCB {background:url(../bank/ie/VCB.png) no-repeat\9}
+i.STB {background:url(../bank/ie/STB.png) no-repeat\9}
+i.BAB {background:url(../bank/ie/BAB.png) no-repeat\9}
+i.VISA {background:url(../bank/ie/VISA.png) no-repeat\9}
+i.OJB {background:url(../bank/ie/OJB.png) no-repeat\9}
+i.BVB {background:url(../bank/ie/BVB.png) no-repeat\9}
+i.NL {background:url(../bank/ie/nganluong.png?v=1) no-repeat\9}
+i.icon-nganluong {background:url(../bank/ie/nl.png) no-repeat\9}
+i.icon-nlfund {background:url(../bank/ie/vimo.png) no-repeat\9}
+i.cardVT {background:url(../bank/ie/card.png) no-repeat\9}
+i.viettel {background:url(../bank/ie/viettel.png) no-repeat\9}
+i.mobifone {background:url(../bank/ie/mobifone.png) no-repeat\9}
+i.vinaphone {background:url(../bank/ie/vinaphone.png) no-repeat\9}
+i.vietnamobile {background:url(../bank/ie/vietnamobi.png) no-repeat\9}
+i.sfone {background:url(../bank/ie/sfone.png) no-repeat\9}
+i.gmobile {background:url(../bank/ie/gmobi.png) no-repeat\9}
+
+i.gatecard	 {background:url(../bank/ie/gate.png) no-repeat\9}
+i.Vcoin	 {background:url(../bank/ie/Vcoin.png) no-repeat\9}
+	
+i.otherbank-logo {background:url(../bank/ie/other.png) no-repeat\9}
+i.MBpay {background:url(../bank/ie/2pay.png) no-repeat\9}	
+i.addmore {background:url(../bank/ie/add.png) no-repeat\9}

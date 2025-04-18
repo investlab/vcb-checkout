@@ -1,0 +1,235 @@
+:root {
+    --primary-color: #387F39; /* Xanh đậm */
+    --secondary-color: #00994c; /* Xanh nhạt */
+    --primary-button-color: #5ab323;
+    --warning-button-color: #e3c33e
+}
+
+button.btn.btn-link.btn-block.text-left.collapsed > img {
+    height: 50px;
+    width: 50px;
+}
+
+.box-collapse .card .card-header button img {
+    height: 50px;
+    width: 50px;
+}
+
+header, footer {
+    background-image: none;
+    background-color: #387F39 !important;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    /* display: grid; */
+    grid-template-rows: auto 1fr auto;
+    overflow-y: scroll;
+}
+
+
+.footer-left a img {
+    max-width: 90%;
+    margin-left: 0;
+    /*height: 50px;*/
+    height: 30px;
+}
+
+
+.shadow-white {
+    box-shadow: 0 0.5rem 1rem rgba(255, 255, 255, 0.5) !important;
+}
+
+.bg-primary {
+    background-image: linear-gradient(to left, var(--primary-color), var(--primary-color)) !important;
+}
+
+.btn-primary {
+    background-color: var(--primary-button-color) !important;
+    background-image: linear-gradient(to left, var(--primary-button-color), var(--primary-button-color)) !important;
+}
+
+.btn-warning {
+    background-color: var(--warning-button-color) !important;
+    background-image: linear-gradient(to left, var(--warning-button-color), var(--warning-button-color)) !important;
+}
+
+.border-bg-primary {
+    border-color: var(--primary-color) !important;
+}
+
+.text-primary {
+    color: var(--primary-color) !important;
+}
+
+.background-head-foot {
+    background-color: var(--primary-color) !important;
+}
+
+.color-primary {
+    color: #007939 !important;
+}
+
+.box-collapse .card .card-header button {
+    /*color: #000000;*/
+    color: green;
+    font-weight: 600 !important;
+    position: relative;
+    /* max-width: 300px; */
+    padding-right: 32px;
+    padding-left: 110px;
+    padding-top: 10px;
+    padding-bottom: 26px;
+    height: 60px;
+    font-size: 14px;
+}
+
+.box-alert span {
+    display: inline-block;
+    width: 180px;
+    height: 150px;
+    margin-bottom: 0px;
+}
+
+input::placeholder {
+    color: grey !important; /* Äáº·t mÃ u placeholder thÃ nh Ä‘á» */
+    opacity: 1; /* Äáº£m báº£o Ä‘á»™ trong suá»‘t cá»§a placeholder */
+}
+
+button[disabled="disabled"] {
+    opacity: 0.7;
+}
+
+.card-form .card-body form {
+    padding: 0px;
+}
+
+.invalid-feedback {
+    font-size: 13px !important;
+}
+
+
+#headingOne button.btn.btn-link.btn-block.text-left.collapsed.p-t-0 {
+    padding-left: 130px;
+}
+
+.stylecheck .checkmark:after {
+    border-color: var(--primary-color) !important;
+}
+
+.stylecheck input:checked ~ .checkmark {
+    border: 1px solid var(--primary-color) !important;
+}
+
+.checkmark {
+    border: 2px solid var(--primary-color) !important;
+}
+
+.otp-input {
+    border-color: var(--primary-color) !important;
+}
+
+#cover-spin {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 9999;
+    display: none;
+}
+
+@-webkit-keyframes spin {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#cover-spin::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 48%;
+    top: 40%;
+    width: 40px;
+    height: 40px;
+    border-style: solid;
+    border-color: #4e9a3e;
+    border-top-color: transparent;
+    border-width: 4px;
+    border-radius: 50%;
+    -webkit-animation: spin .8s linear infinite;
+    animation: spin .8s linear infinite;
+}
+
+button#pay-button[disabled]:hover {
+    cursor: no-drop;
+}
+
+.footer-left {
+    padding: 5px
+}
+
+.was-validated .form-control:valid, .form-control.is-valid {
+    background-position: right calc(0.175em + 0.8rem) center;
+}
+
+.invalid-feedback {
+    display: none; /* Mặc định ẩn */
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+input.is-invalid + .invalid-feedback {
+    display: block; /* Hiển thị khi input có class is-invalid */
+}
+
+
+.box-alert ul li a.btn-alert {
+    font-size: 16px !important;
+}
+
+input.is-invalid-expired + div.invalid-feedback {
+    display: block !important;
+}
+
+.was-validated .form-control:invalid, .form-control.is-invalid-expired {
+    border-color: #dc3545 !important;
+    padding-right: calc(1.5em + 0.75rem);
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%23dc3545' viewBox='0 0 12 12'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right calc(0.375em + 0.1875rem) center;
+    background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+}
+
+.was-validated .form-control:invalid, .form-control.is-invalid-expired:focus {
+    border-color: #dc3545 !important;
+    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25) !important;
+}
+
+.card-form .card-body form .form-group select {
+    height: 48px !important;
+}
+
+.form-check-input {
+    margin-left: 0px;
+}

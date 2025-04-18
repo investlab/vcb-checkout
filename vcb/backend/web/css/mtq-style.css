@@ -1,0 +1,88 @@
+.line-items {
+
+}
+.line-items .line-item {
+    border-bottom: 1px dotted #CCC;
+    padding: 5px 0px;
+    display: block;
+}
+.line-items .line-item:last-child {
+    border-bottom: none;
+}
+
+.list-right, .list-right ul {
+    list-style: none;
+    list-style-type: none;
+    padding-left: 0px;
+    padding-bottom: 10px;
+}
+.list-right ul {
+    border-left: 1px dotted #666;
+}
+.list-right li {
+    padding-left: 30px;
+    margin-left: -1px;
+}
+.list-right li span {
+    display: block;
+    height: 25px;
+    line-height: 25px;
+    background: #FFF;
+}
+.list-right ul li .line {
+    border-bottom: 1px dotted #666;
+    border-left: 1px dotted #666;
+}
+.list-right li .line {
+    padding-left: 30px;
+    margin-left: -30px;
+}
+.list-right .line span {
+    position: relative;
+    bottom: -12px;
+    z-index: 2;
+}
+.list-right input {
+    margin-left: -7px;
+}
+.table-responsive td hr {
+    margin: 5px 0px;
+}
+.table-hover>tbody>tr:hover>td, .table-hover>tbody>tr:hover>th, .table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th {
+    background-color: #fffacd;
+}
+.table-bordered, .table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+    border-color: #9d9d9d;
+    border-bottom: 1px solid #9d9d9d;
+}
+.table-bordered > tbody > tr > td hr {
+    border-top: 1px dotted #666;
+}
+table .bg-warning {
+    background-color: #ffa;
+}
+table .bg-success {
+    background-color: #d0ffd0;
+}
+table .bg-danger {
+    background-color: #FCC;
+}
+table td .text-danger {
+    color: #F10012;
+}
+table td .label-warning {
+    background-color: #FF9900;
+}
+table td .label-success {
+    background-color: #060;
+}
+table td .label-success {
+    background-color: #060;
+}
+table td .label-danger {
+    background-color: #F00;
+}
+.table-responsive .table {
+    max-width: none;
+    -webkit-overflow-scrolling: touch !important;
+}

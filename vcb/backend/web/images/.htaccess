@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+Options -Indexes
+Options -ExecCGI
+</IfModule>
+
+<FilesMatch "\.(html|php|cgi|pl|php3|php4|php5|php6|phtml|shtml)$">
+Order Allow,Deny 
+Deny from all 
+</FilesMatch>

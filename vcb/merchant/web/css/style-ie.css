@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+.main{width:1000px\9}
+#wrapbody-login .main {width:450px\9}
+#wrapbody-login .Register {width:700px\9}
+.leftMenu {position:inherit\9; float:left\9; top:0px\9}
+.container-fluid {padding-right:0px\9; padding-left:0px\9}
+.container-fluid >.navbar-header { margin:0px\9}
+.breakCol {margin-left:0px\9; float:left\9; width:790px\9}
+.breakCol .container-fluid { margin-left:25px\9}
+.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-md-9 {float:left\9}
+.col-sm-2 {width: 16%\9}
+.col-sm-3 {width: 25%\9}
+.col-sm-4 {width: 210px\9}
+.col-sm-5 {width: 41.5%\9}
+.col-sm-6 {width: 50%\9}
+.col-sm-7 {width: 58.3333%\9}
+.col-sm-8 {width: 66.6667%\9}
+.col-md-9 {width:100%\9;}
+.form-horizontal .control-label {text-align: right\9; padding-top:5px\9}
+.col-sm-offset-4 { margin-left:210px\9}
+.pdr5 { padding-right:5px\9}
+.pdl5 { padding-left:5px\9}
+.modal-dialog { margin:70px auto\9; width:500px\9}
+span.menuall { display:none\9}
